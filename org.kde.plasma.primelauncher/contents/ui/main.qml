@@ -102,7 +102,7 @@ PlasmoidItem {
         spacing: Kirigami.Units.smallSpacing
         
         PlasmaComponents.Label {
-            text: "NVIDIA PRIME Offload"
+            text: "NVIDIA PRIME Offload Launcher"
             font.bold: true
             font.pointSize: theme.defaultFont.pointSize + 1
             Layout.fillWidth: true
