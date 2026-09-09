@@ -1,53 +1,33 @@
-# NVIDIA PRIME Offload Launcher — Plasma Widget
+<div align="center">
 
-Shows what's currently running on your NVIDIA GPU via PRIME on-demand offload,
-right in your panel or desktop.
+# NVIDIA PRIME Offload Launcher
 
-## Install (local testing)
+We laptop users with hybrid graphics all know the headache that kicks in every time you try to launch an application on your dedicated NVIDIA GPU. You'll end up using the terminal with a long command every time with every app, which'll get old fast.
+
+This widget does not fix the whole issue, but makes it easier.
+
+![NVIDIA](https://img.shields.io/badge/NVIDIA-PRIME%20Offload-76B900)
+![KDE Plasma 6](https://img.shields.io/badge/KDE-Plasma%206-1D99F3)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</div>
+
+## Install
+
+Clone the repository:
 
 ```bash
-cd org.kde.plasma.primestatus
-kpackagetool6 -i .        # Plasma 6 (KDE Frameworks 6)
+cd org.kde.plasma.org.kde.plasma.primelauncher
+kpackagetool6 -i .
 # or, on older Plasma:
-# kpackagetool5 -i .
+kpackagetool5 -i .
 ```
+Then open **Add Widgets** and add **NVIDIA PRIME Offload Launcher**.
 
-To update after editing:
+## What it does
 
-```bash
-kpackagetool6 -u .
-```
-
-Then right-click your panel (or desktop) → **Add Widgets** → search for
-"PRIME Offload Status".
-
-## How it works
-
-Polls `nvidia-smi --query-compute-apps` every 5 seconds and shows how many
-processes are currently running on the NVIDIA GPU. Click "Refresh now" for
-an immediate check. The compact panel view just shows a count badge.
-
-## Ideas to extend it
-
-- Add process *names* to the expanded view, not just a count
-- Add a "launch app with NVIDIA offload" button that runs
-  `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <app>`
-- Color the icon (green/red) based on idle vs active
-- Add a config page (`contents/config/`) to let the user set the poll interval
-- Detect `prime-select` mode too, if you ever install `nvidia-prime` and use
-  full switching instead of on-demand offload
-- Package it for the KDE Store (store.kde.org) once you're happy with it
-
-## Publishing to GitHub
-
-```bash
-cd primestatus
-git init
-git add .
-git commit -m "Initial PRIME offload status widget"
-git remote add origin https://github.com/yourusername/plasma-prime-status.git
-git push -u origin main
-```
-
-Add a LICENSE file (GPL-2.0-or-later or GPL-3.0 are the norm for Plasma
-widgets) before pushing publicly.
+A simple KDE Plasma widget for launching applications with NVIDIA PRIME
+Render Offload. Instead of manually typing the PRIME environment variables
+every time, enter an application command and launch it directly through
+the widget. It also lets you save frequently used application commands for
+quick access later.
