@@ -26,7 +26,7 @@ kpackagetool6 -i .
 # or, on older Plasma:
 kpackagetool5 -i .
 ```
-Then open **Add Widgets** and add **NVIDIA PRIME Offload Launcher** to your desktop.
+Then open **Add Widgets**, search for: **NVIDIA PRIME Offload Launcher** and add it to your desktop.
 <div align="center">
   
 ## What it does
