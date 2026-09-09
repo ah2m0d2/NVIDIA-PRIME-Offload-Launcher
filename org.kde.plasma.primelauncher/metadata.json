@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+        {
+            "Name": "Aquila",
+            "Email": "altair@underworld.dog"
+        }
+        ],
+        "Category": "System Information",
+        "Description": "Launch applications with your dedicated NVIDIA GPU",
+        "Icon": "nvidia",
+        "Id": "org.kde.plasma.primelauncher",
+        "Name": "NVIDIA PRIME Offload Launcher",
+        "Version": "0.1",
+        "Website": "https://github.com/wip/plasma-prime-status"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
