@@ -2,17 +2,18 @@
     "KPlugin": {
         "Authors": [
             {
-                "Name": "Your Name",
-                "Email": "you@example.com"
+                "Name": "ah2m0d2",
+                "Email": "mahmoudmohanad575@gmail.com"
             }
         ],
         "Category": "System Information",
         "Description": "Shows what's currently running on the NVIDIA GPU via PRIME offload",
         "Icon": "nvidia",
-        "Id": "org.kde.plasma.primestatus",
-        "Name": "PRIME Offload Status",
+        "Id": "org.kde.plasma.primelauncher",
+        "License": "GPL-3.0-or-later",
+        "Name": "NVIDIA PRIME Offload Launcher",
         "Version": "0.1",
-        "Website": "https://github.com/yourusername/plasma-prime-status"
+        "Website": "https://github.com/ah2m0d2/NVIDIA-PRIME-Offload-Launcher"
     },
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml"
