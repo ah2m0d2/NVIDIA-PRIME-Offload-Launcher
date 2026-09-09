@@ -1,10 +1,10 @@
 {
     "KPlugin": {
         "Authors": [
-            {
-                "Name": "Ahmed Abdo",
-                "Email": "mahmoudmohanad575@gmail.com"
-            }
+        {
+            "Name": "Ahmed Abdo",
+            "Email": "mahmoudmohanad575@gmail.com"
+        }
         ],
         "Category": "System Information",
         "Description": "Launch applications with your dedicated NVIDIA GPU",
@@ -15,6 +15,6 @@
         "Version": "0.1",
         "Website": "https://github.com/ah2m0d2/NVIDIA-PRIME-Offload-Launcher"
     },
-    "X-Plasma-API": "declarativeappletscript",
-    "X-Plasma-MainScript": "ui/main.qml"
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
 }
