@@ -7,7 +7,7 @@
             }
         ],
         "Category": "System Information",
-        "Description": "Shows what's currently running on the NVIDIA GPU via PRIME offload",
+        "Description": "Launch applications with your dedicated NVIDIA GPU",
         "Icon": "nvidia",
         "Id": "org.kde.plasma.primelauncher",
         "License": "GPL-3.0-or-later",
