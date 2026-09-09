@@ -39,7 +39,7 @@ PlasmoidItem {
         if (app.length === 0)
             return
             
-            // Don't save duplicates
+            // DON'T save duplicates
             if (root.savedApplications.indexOf(app) !== -1)
                 return
                 
@@ -79,7 +79,7 @@ PlasmoidItem {
         }
     }
     
-    // Panel / compact view
+    // Panel
     compactRepresentation: RowLayout {
         spacing: Kirigami.Units.smallSpacing
         
@@ -94,7 +94,7 @@ PlasmoidItem {
         }
     }
     
-    // Expanded popup
+    // Expand
     fullRepresentation: ColumnLayout {
         Layout.minimumWidth: Kirigami.Units.gridUnit * 20
         Layout.minimumHeight: Kirigami.Units.gridUnit * 12
