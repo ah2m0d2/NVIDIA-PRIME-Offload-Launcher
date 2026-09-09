@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Your Name",
+                "Email": "you@example.com"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Shows what's currently running on the NVIDIA GPU via PRIME offload",
+        "Icon": "nvidia",
+        "Id": "org.kde.plasma.primestatus",
+        "Name": "PRIME Offload Status",
+        "Version": "0.1",
+        "Website": "https://github.com/yourusername/plasma-prime-status"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
