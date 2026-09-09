@@ -2,9 +2,9 @@
 
 # NVIDIA PRIME Offload Launcher
 
-We laptop users with hybrid graphics all know the headache that kicks in every time you try to launch an application on your dedicated NVIDIA GPU. You'll end up using the terminal with a long command every time with every app, which'll get old fast.
+It can get tiring fast when you're trying to launch an application with your dedicated NVIDIA GPU and your integrated GPU hijacks it. Instead of having to open up the terminal and forcing the app to run on your dedicated GPU through a long, hard to remember command every time, why not do it with one click?
 
-This widget does not fix the whole issue, but makes it easier.
+This widget does not fix the original issue, but makes it easier for lazy guys like me who don't want to debug it.
 
 ![NVIDIA](https://img.shields.io/badge/NVIDIA-PRIME%20Offload-76B900)
 ![KDE Plasma 6](https://img.shields.io/badge/KDE-Plasma%206-1D99F3)
@@ -14,7 +14,7 @@ This widget does not fix the whole issue, but makes it easier.
 
 <div align="center">
 
-## Install
+## Installation
 
 </div>
 
